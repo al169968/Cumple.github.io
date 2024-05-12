@@ -168,6 +168,7 @@ $('document').ready(function(){
 		$(this).fadeOut('slow');
 		$('.cake').fadeOut('fast').promise().done(function(){
 			$('.message').fadeIn('slow');
+			$('.ticket').fadeIn('slow');
 		});
 		
 		var i;
@@ -181,6 +182,7 @@ $('document').ready(function(){
 					$('.cake').fadeIn('fast');
 				});
 				
+				
 			}
 			else{
 				msgLoop(i);
@@ -193,6 +195,7 @@ $('document').ready(function(){
 		msgLoop(0);
 		
 	});
+	
 });
 
 

@@ -1,14 +1,14 @@
 {
   "name": "Cumpleaños",
   "version": "1.0.0",
-  "description": "Feliz cumple..",
+  "description": "Feliz cumple...",
   "main": " ",
   "scripts": {
     "server-node": "http-server -p 8081"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ayusharma/birthday.git"
+    "url": "git+https://github.com/"
   },
   "keywords": [
     "Birthday"
@@ -16,9 +16,9 @@
   "author": "Roberto Diaz",
   "license": "WTFPL",
   "bugs": {
-    "url": "https://github.com/ayusharma/birthday/issues"
+    "url": "https://github.com/"
   },
-  "homepage": "https://github.com/ayusharma/birthday#readme",
+  "homepage": "https://github.com/",
   "dependencies": {
     "http-server": "^0.11.1"
   }

@@ -1085,6 +1085,16 @@ audio {
 	background-repeat: no-repeat no-repeat;
 	background-size: 100px 183px;
 }
+.ticket {
+	position: fixed;
+	bottom: -200px;
+	opacity: 0.6;
+	z-index: 99;
+	width: 80px;
+	height: 53px;
+	background-repeat: no-repeat no-repeat;
+	background-size: 100px 183px;
+}
 .balloons h2 {
 	text-transform: uppercase;
 	font-family: 'Signika', sans-serif;
@@ -1095,6 +1105,9 @@ audio {
 }
 #cake_fadein{
 	background-image: url('cake128.png');
+}
+#ticket{
+	background-image: url('ticketKenia.png');
 }
 #b1,#b11 {
 	background-image: url('b1.png');
@@ -1263,7 +1276,7 @@ audio {
 	bottom: 0;
 	padding:10px 0px 10px 0px;
 }
-#play, #bannar_coming, #balloons_flying,#cake_fadein,#light_candle,#wish_message,#story {
+#play, #bannar_coming, #balloons_flying,#cake_fadein,#light_candle,#wish_message,#story,#ticket {
 	display: none;
 }
 
